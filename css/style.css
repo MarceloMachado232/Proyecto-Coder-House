@@ -9,14 +9,14 @@ body {
 /* fuentes y colores*/
 @font-face {
   font-family: erosion;
-  src: local("erosion"), url(erosion.ttf); }
+  src: local("erosion"), url(../base/fonts/erosion.ttf); }
 
 /* backgrounds */
 header nav {
   background-image: url(../images/black2.png); }
   header nav div a {
     color: whitesmoke !important;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+    font-family: "erosion", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
 .dropdown-menu {
   background-color: black; }
@@ -28,28 +28,28 @@ header nav {
 /* fuentes y colores*/
 @font-face {
   font-family: erosion;
-  src: local("erosion"), url(erosion.ttf); }
+  src: local("erosion"), url(../base/fonts/erosion.ttf); }
 
 .nosotros {
   color: whitesmoke !important; }
   .nosotros h2 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+    font-family: "erosion", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
   .nosotros p {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
 /* fuentes y colores*/
 @font-face {
   font-family: erosion;
-  src: local("erosion"), url(erosion.ttf); }
+  src: local("erosion"), url(../base/fonts/erosion.ttf); }
 
 .central {
   color: whitesmoke !important; }
   .central h1 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+    font-family: "erosion", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
   .central h2 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+    font-family: "erosion", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
   .central div h3 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+    font-family: "erosion", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
   .central div p {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
@@ -61,7 +61,7 @@ li {
 /* fuentes y colores*/
 @font-face {
   font-family: erosion;
-  src: local("erosion"), url(erosion.ttf); }
+  src: local("erosion"), url(../base/fonts/erosion.ttf); }
 
 .menu {
   color: whitesmoke !important;
@@ -70,7 +70,7 @@ li {
 /* fuentes y colores*/
 @font-face {
   font-family: erosion;
-  src: local("erosion"), url(erosion.ttf); }
+  src: local("erosion"), url(../base/fonts/erosion.ttf); }
 
 .evento {
   color: white; }
@@ -80,7 +80,7 @@ li {
 /* fuentes y colores*/
 @font-face {
   font-family: erosion;
-  src: local("erosion"), url(erosion.ttf); }
+  src: local("erosion"), url(../base/fonts/erosion.ttf); }
 
 .main-error {
   display: table;
@@ -93,4 +93,4 @@ li {
   vertical-align: middle;
   font-size: 2rem;
   color: whitesmoke !important;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+  font-family: "erosion", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
