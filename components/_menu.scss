@@ -1,6 +1,6 @@
 @import "../base/fonts";
 
 .menu {
-    @include letters-menu;
-    
+    color: $f-color;
+    font-family: $f-family-parraf;
 }

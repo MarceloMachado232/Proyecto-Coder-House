@@ -23,9 +23,7 @@ header nav {
 
 /* fuentes y colores*/
 .nosotros {
-  color: whitesmoke !important;
-  color: green;
-  text-decoration: none; }
+  color: whitesmoke !important; }
   .nosotros h2 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
   .nosotros p {
@@ -50,8 +48,8 @@ li {
 
 /* fuentes y colores*/
 .menu {
-  font-family: 'Times New Roman', Times, serif;
-  color: aqua; }
+  color: whitesmoke !important;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
 /* fuentes y colores*/
 .evento {
