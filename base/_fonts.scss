@@ -2,15 +2,22 @@
 
 
 @font-face {
-    font-family: erosion;
-  src: local('Erosion'),
+    font-family: Erosion;
+  src: local('erosion'),
   url(../base/fonts/erosion.ttf);
 
 }
 
+@font-face {
+  font-family: Coco;
+  src: local('coco'),
+  url(../base/fonts/coco.ttf);
+
+}
+
 $f-color: whitesmoke !important;
-$f-family-parraf: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-$f-family-tittle: 'Erosion', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$f-family-parraf: 'Coco', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$f-family-tittles: 'Erosion', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 $maps: (
