@@ -1,9 +1,15 @@
 /* fuentes y colores*/
+
+@font-face {
+    font-family: erosion;
+  src: local('erosion'),
+  url(erosion.ttf);
+}
+
 $f-color: whitesmoke !important;
 $f-family-parraf: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 $f-family-tittles: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
+$f-family-dafont: 'erosion';
 $maps: (
     tittle-new: white,
 

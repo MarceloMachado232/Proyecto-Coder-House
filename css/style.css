@@ -7,6 +7,10 @@ body {
   background-attachment: fixed; }
 
 /* fuentes y colores*/
+@font-face {
+  font-family: erosion;
+  src: local("erosion"), url(erosion.ttf); }
+
 /* backgrounds */
 header nav {
   background-image: url(../images/black2.png); }
@@ -22,6 +26,10 @@ header nav {
   text-decoration: underline; }
 
 /* fuentes y colores*/
+@font-face {
+  font-family: erosion;
+  src: local("erosion"), url(erosion.ttf); }
+
 .nosotros {
   color: whitesmoke !important; }
   .nosotros h2 {
@@ -30,6 +38,10 @@ header nav {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
 /* fuentes y colores*/
+@font-face {
+  font-family: erosion;
+  src: local("erosion"), url(erosion.ttf); }
+
 .central {
   color: whitesmoke !important; }
   .central h1 {
@@ -47,17 +59,29 @@ li {
   margin-right: 20px; }
 
 /* fuentes y colores*/
+@font-face {
+  font-family: erosion;
+  src: local("erosion"), url(erosion.ttf); }
+
 .menu {
   color: whitesmoke !important;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
 /* fuentes y colores*/
+@font-face {
+  font-family: erosion;
+  src: local("erosion"), url(erosion.ttf); }
+
 .evento {
   color: white; }
   .evento h1 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+    font-family: "erosion"; }
 
 /* fuentes y colores*/
+@font-face {
+  font-family: erosion;
+  src: local("erosion"), url(erosion.ttf); }
+
 .main-error {
   display: table;
   width: 100%;
