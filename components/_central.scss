@@ -18,6 +18,38 @@
     }
 }
 
+.info-central {
+    position: relative;
+    width: 100%;
+  
+  }
+  
+  .image-central {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .info-overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: $f-color; 
+    width: 100%;
+    transition: .8s ease;
+    opacity:0;
+    color: $f-color; 
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: $f-family-parraf;
+  }
+  
+  .info-central:hover .info-overlay {
+    opacity: 1;
+  }
+
 .carousel-central {
 
     padding: 20px 0px;
