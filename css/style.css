@@ -117,6 +117,55 @@ li {
   .evento h1 {
     font-family: "Erosion", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
+/* .entrada {
+    border-radius: 6px;
+}
+
+.entrada-uno, .entrada-dos, .entrada-tres {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.entrada:hover {
+    opacity:0;
+
+}
+ */
+.ticket {
+  position: relative; }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease; }
+
+.ticket:hover .overlay {
+  opacity: 1; }
+
+.imageover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
 /* fuentes y colores*/
 @font-face {
   font-family: Erosion;
